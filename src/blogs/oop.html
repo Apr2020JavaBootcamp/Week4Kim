@@ -8,14 +8,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="../styles/blog.css" />
     <title>OOP</title>
 </head>
 <body>
 <header>
-
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Developer's Corner</a>
+        <a class="navbar-brand" href="../index.html">Developer's Corner</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -24,10 +23,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link" href="../about.html">About</a>
                 </li>
                 <li class="nav-item dropdown active">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -42,9 +41,99 @@
             </ul>
         </div>
     </nav>
-
 </header>
-<h1>This page will be about object oriented programming</h1>
+<main role="main" class="container">
+    <div class="row"> <!-- Beginning of row 1-->
+        <div class="col-md-8 blog-main">
+            <div class="blog-post"> <!-- begin blog post #1 -->
+                <h2 id="ooptopic" class="blog-post-title">Inheritance</h2>
+                <p class="blog-post-meta">
+                    April 20, 2020 by
+                    <a href="../about.html">Kim Levin</a>
+                </p>
+                <p>
+                    This blog post shows a few different types of content that’s supported and styled with Bootstrap.
+                    Basic typography, images, and code are all supported.
+                </p>
+                <hr>
+                <p>
+                    nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+                    vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit
+                    amet fermentum.
+                </p>
+                <blockquote>
+                    <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong>
+                        ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                    </p>
+                </blockquote>
+                <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet
+                    fermentum. Aenean lacinia bibendum nulla sed consectetur.
+                </p>
+                <h2>Heading</h2>
+                <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo
+                    luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+                    Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                </p>
+                <h3>Sub-heading</h3>
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes,
+                    nascetur ridiculus mus.
+                </p>
+                <pre><code>Example code block</code></pre>
+                <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada
+                    magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                    condimentum nibh, ut fermentum massa.
+                </p>
+                <h3>Sub-heading</h3>
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                    ridiculus mus. Aenean lacinia bibendum nulla sed consectetur.
+                    Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus
+                    commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+                </p>
+                <ul>
+                    <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+                    <li>Donec id elit non mi porta gravida at eget metus.</li>
+                    <li>Nulla vitae elit libero, a pharetra augue.</li>
+                </ul>
+                <p>Donec ullamcorper nulla non metus auctor fringilla.
+                    Nulla vitae elit libero, a pharetra augue.
+                </p>
+                <ol>
+                    <li>Vestibulum id ligula porta felis euismod semper.</li>
+                    <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
+                    <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
+                </ol>
+                <p>Cras mattis consectetur purus sit amet fermentum.
+                    Sed posuere consectetur est at lobortis.
+                </p>
+                <a href="#ooptopic">Top of Posts</a>
+            </div> <!--end blog post #1-->
+            <div class="blog-post"> <!-- begin blog post #2 -->
+                <h2 class="blog-post-title">Polymorphism</h2>
+                <p class="blog-post-meta">May 4, 2020 by <a href="../about.html">Kim Levin </a></p>
+                <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>,
+                    nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
+                    venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur
+                    purus sit amet fermentum.
+                </p>
+                <blockquote>
+                    <p>Curabitur blandit tempus porttitor.
+                        <strong>Nullam quis risus eget urna mollis</strong>
+                        ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                    </p>
+                </blockquote>
+                <p>Etiam porta <em>sem malesuada magna</em> mollis euismod.
+                    Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla
+                    sed consectetur.
+                </p>
+                <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+                    Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
+                    sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                </p>
+                <a href="#ooptopic">Top of Posts</a>
+            </div> <!--end blog post #2-->
+        </div>
+    </div> <!-- End of row 1-->
+</main>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
